@@ -27,7 +27,7 @@ def create_checkout_session(check_items: List[CheckoutItem]):
         return {"detail": "Stripe configuration error"}
 
     # Get domain URL from environment variable or use default
-    domain_url = os.getenv("DOMAIN_URL", "http://localhost:8000")
+    domain_url = os.getenv("DOMAIN_URL")
     print("Using domain URL:", domain_url)
 
     new_line_items = [
