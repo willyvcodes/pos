@@ -1,0 +1,182 @@
+:root {
+    /* Primary Colors */
+    --primary: #1a1f36;
+    --primary-light: #2a3042;
+    --primary-dark: #141824;
+
+    /* Secondary Colors */
+    --secondary: #4a90e2;
+    --secondary-light: #6ba4e7;
+    --secondary-dark: #2c7ad6;
+
+    /* Accent Colors */
+    --accent-success: #2ecc71;
+    --accent-warning: #f1c40f;
+    --accent-danger: #e74c3c;
+    --accent-info: #3498db;
+
+    /* Neutral Colors */
+    --neutral-100: #ffffff;
+    --neutral-200: #f8f9fa;
+    --neutral-300: #e9ecef;
+    --neutral-400: #dee2e6;
+    --neutral-500: #adb5bd;
+    --neutral-600: #6c757d;
+    --neutral-700: #495057;
+    --neutral-800: #343a40;
+    --neutral-900: #212529;
+
+    /* Text Colors */
+    --text-primary: var(--neutral-900);
+    --text-secondary: var(--neutral-700);
+    --text-muted: var(--neutral-600);
+    --text-light: var(--neutral-100);
+
+    /* Background Colors */
+    --bg-primary: var(--neutral-100);
+    --bg-secondary: var(--neutral-200);
+    --bg-dark: var(--primary);
+
+    /* Border Colors */
+    --border-color: var(--neutral-300);
+    --border-color-dark: var(--neutral-400);
+
+    /* Shadow Colors */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+    /* Overlay Colors */
+    --overlay-light: rgba(255, 255, 255, 0.1);
+    --overlay-dark: rgba(0, 0, 0, 0.5);
+
+    /* Font Family */
+    --font-family: 'Nunito Sans', sans-serif;
+
+    /* Border Radius */
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 12px;
+    --border-radius-xl: 18px;
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+}
+
+/* Common Utility Classes */
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-primary-light {
+    background-color: var(--primary-light) !important;
+}
+
+.bg-primary-dark {
+    background-color: var(--primary-dark) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.bg-secondary-light {
+    background-color: var(--secondary-light) !important;
+}
+
+.bg-secondary-dark {
+    background-color: var(--secondary-dark) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.text-light {
+    color: var(--text-light) !important;
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+.border-primary {
+    border-color: var(--primary) !important;
+}
+
+.border-secondary {
+    border-color: var(--secondary) !important;
+}
+
+/* Button Overrides */
+.btn-primary {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-dark) !important;
+    border-color: var(--secondary-dark) !important;
+}
+
+.btn-outline-primary {
+    color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+}
+
+/* Form Control Overrides */
+.form-control:focus {
+    border-color: var(--secondary) !important;
+    box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25) !important;
+}
+
+/* Card Overrides */
+.card {
+    border-color: var(--border-color) !important;
+    box-shadow: var(--shadow-sm) !important;
+}
+
+/* Table Overrides */
+.table thead th {
+    background-color: var(--bg-secondary) !important;
+    border-bottom-color: var(--border-color-dark) !important;
+}
+
+/* Modal Overrides */
+.modal-content {
+    border: none !important;
+    box-shadow: var(--shadow-lg) !important;
+}
+
+.modal-header {
+    background-color: var(--bg-secondary) !important;
+    border-bottom-color: var(--border-color) !important;
+}
+
+/* Badge Overrides */
+.badge.bg-success {
+    background-color: var(--accent-success) !important;
+}
+
+.badge.bg-warning {
+    background-color: var(--accent-warning) !important;
+}
+
+.badge.bg-danger {
+    background-color: var(--accent-danger) !important;
+}
+
+.badge.bg-info {
+    background-color: var(--accent-info) !important;
+}

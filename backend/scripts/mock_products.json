@@ -1,0 +1,94 @@
+{
+    "products": [
+        {
+            "name": "Cuban Bread",
+            "type": "Bakery",
+            "price": 3.99,
+            "description": "Traditional Cuban bread, crispy crust with soft interior",
+            "thumbnail": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&auto=format",
+            "upc": "1234567890123",
+            "category": "Bakery"
+        },
+        {
+            "name": "Pastelitos",
+            "type": "Bakery",
+            "price": 2.99,
+            "description": "Flaky pastry filled with guava and cream cheese",
+            "thumbnail": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500&auto=format",
+            "upc": "2345678901234",
+            "category": "Pastries"
+        },
+        {
+            "name": "Cuban Coffee",
+            "type": "Beverages",
+            "price": 2.49,
+            "description": "Strong Cuban-style espresso with sugar",
+            "thumbnail": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&auto=format",
+            "upc": "3456789012345",
+            "category": "Coffee"
+        },
+        {
+            "name": "Cuban Sandwich",
+            "type": "Sandwiches",
+            "price": 7.99,
+            "description": "Classic Cuban sandwich with ham, roasted pork, Swiss cheese, pickles, and mustard",
+            "thumbnail": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=500&auto=format",
+            "upc": "4567890123456",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Tres Leches Cake",
+            "type": "Desserts",
+            "price": 4.99,
+            "description": "Moist sponge cake soaked in three kinds of milk",
+            "thumbnail": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&auto=format",
+            "upc": "5678901234567",
+            "category": "Desserts"
+        },
+        {
+            "name": "Cortadito",
+            "type": "Beverages",
+            "price": 2.99,
+            "description": "Cuban espresso with steamed milk",
+            "thumbnail": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format",
+            "upc": "6789012345678",
+            "category": "Coffee"
+        },
+        {
+            "name": "Empanadas",
+            "type": "Bakery",
+            "price": 3.49,
+            "description": "Flaky pastry filled with seasoned ground beef",
+            "thumbnail": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&auto=format",
+            "upc": "7890123456789",
+            "category": "Pastries"
+        },
+        {
+            "name": "Café con Leche",
+            "type": "Beverages",
+            "price": 3.49,
+            "description": "Cuban coffee with steamed milk",
+            "thumbnail": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&auto=format",
+            "upc": "8901234567890",
+            "category": "Coffee"
+        },
+        {
+            "name": "Flan",
+            "type": "Desserts",
+            "price": 3.99,
+            "description": "Classic Cuban caramel custard",
+            "thumbnail": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500&auto=format",
+            "upc": "9012345678901",
+            "category": "Desserts"
+        },
+        {
+            "name": "Cuban Toast",
+            "type": "Bakery",
+            "price": 2.99,
+            "description": "Toasted Cuban bread with butter",
+            "thumbnail": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=500&auto=format",
+            "upc": "0123456789012",
+            "category": "Bakery"
+        }
+    ]
+}
