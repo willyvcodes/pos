@@ -28,9 +28,9 @@ A modern Point of Sale (POS) system built with FastAPI and Svelte, designed for 
 
 ## Prerequisites
 
-- Python 3.9+
-- Node.js 16+
-- MongoDB (running locally or remote)
+- Python
+- Node.js
+- MongoDB
 - Stripe Account
 
 ## Installation
