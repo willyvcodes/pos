@@ -38,7 +38,7 @@ A modern Point of Sale (POS) system built with FastAPI and Svelte, designed for 
 1. Clone the repository:
 ```bash
 git clone https://github.com/willyvcodes/pos.git
-cd POS-System
+cd pos
 ```
 
 2. Set up the backend:
